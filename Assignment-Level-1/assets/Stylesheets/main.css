@@ -118,6 +118,12 @@ h3 {
      border-radius: 5px;
      margin-top: 20px;
 }
+li {
+     margin-left: 40px;
+}
+ul li:first-child{
+     margin: 0;
+}
 
 /* header */
 header {
@@ -126,7 +132,6 @@ header {
 }
 nav li a {
      font-size: 23px;
-     margin-left: 40px;
      text-transform: uppercase;
      color: rgba(255, 255, 255, 0.925);
 }
@@ -157,12 +162,13 @@ nav li:nth-child(2) a {
 .smol-btn {
      font-size: 20px;
      padding: 13px 25px;
+     margin-bottom: 30px;
 }
 /* footer  */
 footer {
      background: #222946;
      color: #BCC0D2;
-     padding: 30px 0;
+     padding: 25px 0;
 }
 small {
      font-size: 25px;
@@ -171,7 +177,6 @@ small {
 .fab {
      font-size: 30px;
      color: #BCC0D2;
-     margin-left: 35px;
 }
 /* responsive design  */
 @media screen and (max-width: 768px) {
@@ -180,7 +185,7 @@ small {
           flex-wrap: wrap-reverse;
      }
      .logo {
-          width: 30%;
+          width: 43%;
      }
      .col {
 		flex: 0 1 100%;
@@ -194,7 +199,6 @@ small {
 	}
 	.col1-3 {
 		flex: 0 1 100%;
-          margin: 20px 0;
      }
      .col1-3 figure img {
           width: 100%;
@@ -202,5 +206,5 @@ small {
      }
      .padding {
           padding-bottom: 0;
-     }
+     }    
 }
