@@ -103,6 +103,11 @@ h2 {
      font-size: 55px;
      text-transform: capitalize;
      text-align: center;
+     margin-bottom: 30px;
+}
+h3 {
+     font-size: 38px;
+     margin: 20px 0 8px;
 }
 .btn {
      background-color: #37B667;
@@ -136,6 +141,66 @@ nav li:nth-child(2) a {
      background-color: #E9ECFC;
 }
 .col1-2 {
-     flex: 0 1 49%;
+     flex: 0 0 49%;
 }
-
+/* main sec 2 */
+.col1-3 {
+     flex: 0 1 31.3%;
+}
+.col1-3 p {
+     font-size: 18px;
+}
+.col1-3 figure img { 
+     width: 444.84px;
+     height: 299.15px;
+}
+.smol-btn {
+     font-size: 20px;
+     padding: 13px 25px;
+}
+/* footer  */
+footer {
+     background: #222946;
+     color: #BCC0D2;
+     padding: 30px 0;
+}
+small {
+     font-size: 25px;
+     font-weight: 500;
+}
+.fab {
+     font-size: 30px;
+     color: #BCC0D2;
+     margin-left: 35px;
+}
+/* responsive design  */
+@media screen and (max-width: 768px) {
+     .intro div {
+          display: flex;
+          flex-wrap: wrap-reverse;
+     }
+     .logo {
+          width: 30%;
+     }
+     .col {
+		flex: 0 1 100%;
+		margin: 10px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.col1-2 {
+		flex: 0 1 100%;
+		margin: 20px 0;
+	}
+	.col1-3 {
+		flex: 0 1 100%;
+          margin: 20px 0;
+     }
+     .col1-3 figure img {
+          width: 100%;
+          height: auto;
+     }
+     .padding {
+          padding-bottom: 0;
+     }
+}
